@@ -2,7 +2,10 @@ facebook:
   label: Facebook
   permalink: /facebook
   description: Facebook tag description
-
+blog:
+  label: Blog
+  permalink: /blog
+  description: Blog tag description
 hello:
   label: Hello
   permalink: /hello
