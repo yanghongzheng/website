@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'yanghongzheng',
+  title: '杨宏峥',
   tagline: `yanghongzheng's website`,
   favicon: 'img/favicon.ico',
 
