@@ -113,7 +113,7 @@ const config = {
               },
               {
                 label: 'Xiaomawang',
-                href: 'https://world.xiaomawang.com',
+                href: 'https://world.xiaomawang.com/w/person/project/all/3298235',
               }
             ],
           },
