@@ -1,6 +1,6 @@
 ---
 slug: yanghongzheng website
-title:  first publish
+title: 2024-10-10 更新日志 
 authors: yanghongzheng
 tags: [blog]
 ---
