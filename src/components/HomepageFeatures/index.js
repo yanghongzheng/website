@@ -1,10 +1,12 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 const FeatureList = [
   {
     title: 'my scratch programming',
+    to:'/docs/intro',
     Svg: require('@site/static/img/scratch-logo.svg').default,
     description: (
       <>
@@ -14,6 +16,7 @@ const FeatureList = [
   },
   {
     title: 'my python programming',
+    to: '/docs/category/tutorial---python',
     Svg: require('@site/static/img/python-svgrepo-com.svg').default,
     description: (
       <>
@@ -23,6 +26,7 @@ const FeatureList = [
   },
   {
     title: 'my c++ programming',
+    to: '/docs/category/tutorial---c',
     Svg: require('@site/static/img/C++-Logo.wine.svg').default,
     description: (
       <>
@@ -32,11 +36,13 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg,to, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+      <Link  to={to}>
+         <Svg className={styles.featureSvg} role="img" />
+      </Link>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
