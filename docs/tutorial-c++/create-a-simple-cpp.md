@@ -9,6 +9,7 @@ sidebar_position: 1
 ## 开发一个简单的add 方法
 
 ```cpp
-int add(int a,int b):
+int add(int a,int b) {
   return a + b;
+}
 ```
