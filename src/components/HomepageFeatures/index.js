@@ -6,7 +6,7 @@ import Link from '@docusaurus/Link';
 const FeatureList = [
   {
     title: 'my scratch programming',
-    to:'/docs/intro',
+    to:'/docs/category/tutorial---scratch',
     Svg: require('@site/static/img/scratch-logo.svg').default,
     description: (
       <>
