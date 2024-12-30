@@ -2,9 +2,11 @@
 sidebar_position: 1
 ---
 
-# 这是一个 python 扑克牌的作品：
+# poker游戏
 
-## 快捷版
+## 这是一个 python 扑克牌的作品：
+
+### 快捷版
 
 ```python
 import random, os, time
@@ -88,7 +90,7 @@ elif p1_win == p2_win:
 else:
     print("player2 is win!")
 ```
-## 兼容版:
+### 兼容版
 
 ```python
 import random,os,time
